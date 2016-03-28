@@ -1,0 +1,16 @@
+
+//fuction for random generation between max n min (i.e 6 & 15)
+
+
+var genRand = function(name) {
+		var temp  = Math.floor(Math.random() * ((15 - 6) + 1)) + 6;  // as we want between 6-15
+		var str = name + " " + temp;
+		return str;
+}
+
+
+
+
+
+
+genRand("Rahul");   //fnxn call
